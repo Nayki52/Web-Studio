@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 article {
   width: 900px;
   height: 300px;
@@ -7,4 +9,70 @@ article {
 button {
   background-color: rgba(33, 150, 243, 1);
   color: white;
+}
+
+p {
+  color: grey;
+}
+
+.main-link {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.main-word {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+}
+
+.button {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.main-description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h3 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.last-word {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h4 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.second-button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
 }

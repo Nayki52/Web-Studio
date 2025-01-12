@@ -3,6 +3,10 @@
 body {
   font-family: Roboto;
 }
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
 
 article {
   width: 900px;
@@ -30,7 +34,7 @@ p {
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 1100;
   font-size: 44px;
   text-align: center;
   text-decoration: none;

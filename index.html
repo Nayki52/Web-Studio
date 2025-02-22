@@ -14,37 +14,32 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
-        <nav>
-          <ul class="nav">
-            <li>
-              <a href="#" class="main-title"
-                ><font color="#2196f3">Web</font>
-                <font color="black">Studio</font></a
-              >
-            </li>
-            <li class="header-list-item">
-              <a href="#" class="main-word">Студія</a>
-            </li>
-            <li class="header-list-item">
-              <a href="./portfolio.html" class="main-word">Портфоліо</a>
-            </li>
-            <li class="header-list-item">
-              <a href="#" class="main-word">Контакти</a>
-            </li>
-            <li class="header-list-item">
-              <address class="header-address">
-                <a href="#"> info@devstudio.com</a>
-              </address>
-            </li>
-            <li class="header-address">
-              <address>
-                <a href="#" class="header-phone">+38 096 111 11 11</a>
-              </address>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-content">
+          <a class="logo" href="#"
+            ><span class="Web">Web</span><span class="st1">Studio</span></a
+          >
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-list-item">
+                <a href="#">Студія</a>
+              </li>
+              <li class="header-list-item">
+                <a href="./portfolio.html">Портфоліо</a>
+              </li>
+              <li class="header-list-item">
+                <a href="#">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <address class="header-address">
+          <a href="mailto:info@devstudio.com" class="header-email"
+            >info@devstudio.com</a
+          >>
+          <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
+        </address>
       </div>
     </header>
     <main>
@@ -62,6 +57,12 @@
           <ul class="benefits-list">
             <li class="benefits-item">
               <div>
+                <img
+                  class="image-decoration"
+                  src="./svg/photo.svg"
+                  width="66"
+                  height="70"
+                />
                 <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p class="main-description">
                   Ідейні міркування, і навіть початок повсякденної роботи з
@@ -71,6 +72,12 @@
             </li>
             <li class="benefits-item">
               <div>
+                <img
+                  class="image-decoration"
+                  src="./svg/2photo.svg"
+                  width="66"
+                  height="70"
+                />
                 <h3 class="benefits-title">ПУНКТУАЛЬНІСТЬ</h3>
                 <p class="main-description">
                   Завдання організації, особливо рамки і місце навчання кадрів
@@ -80,6 +87,12 @@
             </li>
             <li class="benefits-item">
               <div>
+                <img
+                  class="image-decoration"
+                  src="./svg/3photo.svg"
+                  width="66"
+                  height="70"
+                />
                 <h3 class="benefits-title">ПЛАНУВАННЯ</h3>
                 <p class="main-description">
                   Так само консультація з широким активом значною мірою
@@ -89,6 +102,12 @@
             </li>
             <li class="benefits-item">
               <div>
+                <img
+                  class="image-decoration"
+                  src="./svg/4photo.svg"
+                  width="66"
+                  height="70"
+                />
                 <h3 class="benefits-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                 <p class="main-description">
                   Значимість цих проблем настільки очевидна, що реалізація
@@ -102,21 +121,34 @@
       <section class="second-section">
         <div class="container">
           <h2 class="second-title">Чим ми займаємося</h2>
-          <img src="./img/Work.png" alt="Робота" width="370" height="294" />
+          <img
+            src="./img/Work.png"
+            alt="Робота"
+            width="370"
+            height="294"
+            class="image-work"
+          />
           <img
             src="./img/Computer.png"
             alt="Компютер"
             width="370"
             height="294"
+            class="image-work"
           />
-          <img src="./img/Pen.png" alt="Планшет" width="370" height="294" />
+          <img
+            src="./img/Pen.png"
+            alt="Планшет"
+            width="370"
+            height="294"
+            class="image-work"
+          />
         </div>
       </section>
       <section class="last-section">
         <div class="container">
           <h2 class="second-title">Наша команда</h2>
           <ul class="comand-ul">
-            <li>
+            <li class="comand-ul-list">
               <img
                 src="./img/Man1.jpg"
                 alt="Чоловік1"
@@ -126,7 +158,7 @@
               <h4>Ігор Дем'яненко</h4>
               <p class="main-description">Product Designer</p>
             </li>
-            <li>
+            <li class="comand-ul-list">
               <img
                 src="./img/Girl1.jpg"
                 alt="Жінка1"
@@ -136,7 +168,7 @@
               <h4>Ольга Рєпіна</h4>
               <p class="main-description">Frontend Developer</p>
             </li>
-            <li>
+            <li class="comand-ul-list">
               <img
                 src="./img/Man2.jpg"
                 alt="Чоловік2"
@@ -146,7 +178,7 @@
               <h4>Микола Тарасов</h4>
               <p class="main-description">Marketing</p>
             </li>
-            <li>
+            <li class="comand-ul-list">
               <img
                 src="./img/Man3.jpg"
                 alt="Чоловік3"
@@ -162,9 +194,7 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="last-logo" href="#"
-          ><font color="#2196f3">Web</font> <font color="white">Studio</font></a
-        >
+        <a class="last-logo" href="#"><span>Web</span>Studio</a>
         <address class="last-word">м. Київ, пр-т Лесі Українки, 26</address>
         <a class="last-word" href="mailto:info@devstudio.com"
           >info@devstudio.com</a

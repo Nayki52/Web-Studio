@@ -7,41 +7,36 @@
   </head>
   <body>
     <link rel="stylesheet" href="./css/style.css" />
-    <header>
+    <header class="header">
       <div class="container">
-        <nav>
-          <ul class="nav">
-            <li>
-              <a href="#" class="main-title"
-                ><font color="#2196f3">Web</font>
-                <font color="black">Studio</font></a
-              >
-            </li>
-            <li class="header-list-item">
-              <a href="#" class="main-word">Студія</a>
-            </li>
-            <li class="header-list-item">
-              <a href="./portfolio.html" class="main-word">Портфоліо</a>
-            </li>
-            <li class="header-list-item">
-              <a href="#" class="main-word">Контакти</a>
-            </li>
-            <li class="header-list-item">
-              <address class="header-address">
-                <a href="#"> info@devstudio.com</a>
-              </address>
-            </li>
-            <li class="header-address">
-              <address>
-                <a href="#" class="header-phone">+38 096 111 11 11</a>
-              </address>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-content">
+          <a class="logo" href="#"
+            ><span class="Web">Web</span><span class="st1">Studio</span></a
+          >
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-list-item">
+                <a href="./index.html">Студія</a>
+              </li>
+              <li class="header-list-item">
+                <a href="#">Портфоліо</a>
+              </li>
+              <li class="header-list-item">
+                <a href="#">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <address class="header-address">
+          <a href="mailto:info@devstudio.com" class="header-email"
+            >info@devstudio.com</a
+          >>
+          <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
+        </address>
       </div>
     </header>
     <main>
-      <section>
+      <section class="button-section">
         <div class="container">
           <div class="products-btn">
             <button type="button" class="products-button">Усі</button>
@@ -51,106 +46,88 @@
             <button type="button" class="products-button">Маркетинг</button>
           </div>
           <ul class="products">
-            <div class="products-div">
-              <li class="products-list">
-                <img
-                  src="./Веб-сайт1.png"
-                  alt="Веб-сайт"
-                  width="370"
-                  height="404"
-                />
-                <h3 class="products-title">Технокряк</h3>
-                <p class="products-description">Веб-сайт</p>
-              </li>
-              <li class="products-list">
-                <img src="./Дизайн.png" alt="Дизайн" width="370" height="404" />
-                <h3 class="products-title">Постер New Orlean vs Golden Star</h3>
-                <p class="products-description">Дизйн</p>
-              </li>
-              <li class="products-list">
-                <img
-                  src="./Додаток.png"
-                  alt="Додаток"
-                  width="370"
-                  height="404"
-                />
-                <h3 class="products-title">Ресторан Seafood</h3>
-                <p class="products-description">Додаток</p>
-              </li>
-            </div>
-            <div class="products-second-div">
-              <li class="products-list">
-                <img
-                  src="./Маркетинг.png"
-                  alt="Маркетинг"
-                  width="370"
-                  height="404"
-                />
-                <h3 class="products-title">Проєкт Prime</h3>
-                <p class="products-description">Маркетинг</p>
-              </li>
-              <li class="products-list">
-                <img
-                  src="./Додаток2.png"
-                  alt="Додаток"
-                  width="370"
-                  height="404"
-                />
-                <h3 class="products-title">Проєкт Boxes</h3>
-                <p class="products-description">Додаток</p>
-              </li>
-              <li class="products-list">
-                <img
-                  src="./Веб-сайт2.png"
-                  alt="Веб-сайт"
-                  width="370"
-                  height="404"
-                />
-                <h3 class="products-title">Inspiration has no Borders</h3>
-                <p class="products-description">Веб-сайт</p>
-              </li>
-            </div>
-            <div class="products-third-div">
-              <li class="products-list">
-                <img
-                  src="./Дизайн2.png"
-                  alt="Дизайн"
-                  width="370"
-                  height="404"
-                />
-                <h3 class="products-title">Видання Limited Edition</h3>
-                <p class="products-description">Дизайн</p>
-              </li>
-              <li class="products-list">
-                <img
-                  src="./Маркетинг2.png"
-                  alt="Маркетинг"
-                  width="370"
-                  height="404"
-                />
-                <h3 class="products-title">Проєкт LAB</h3>
-                <p class="products-description">Маркетинг</p>
-              </li>
-              <li class="products-list">
-                <img
-                  src="./Додаток3.png"
-                  alt="Додаток"
-                  width="370"
-                  height="404"
-                />
-                <h3 class="products-title">Growing Business</h3>
-                <p class="products-description">Додаток</p>
-              </li>
-            </div>
+            <li class="products-list">
+              <img
+                src="./Веб-сайт1.png"
+                alt="Веб-сайт"
+                width="370"
+                height="404"
+              />
+              <h3 class="products-title">Технокряк</h3>
+              <p class="products-description">Веб-сайт</p>
+            </li>
+            <li class="products-list">
+              <img src="./Дизайн.png" alt="Дизайн" width="370" height="404" />
+              <h3 class="products-title">Постер New Orlean vs Golden Star</h3>
+              <p class="products-description">Дизйн</p>
+            </li>
+            <li class="products-list">
+              <img src="./Додаток.png" alt="Додаток" width="370" height="404" />
+              <h3 class="products-title">Ресторан Seafood</h3>
+              <p class="products-description">Додаток</p>
+            </li>
+            <li class="products-list">
+              <img
+                src="./Маркетинг.png"
+                alt="Маркетинг"
+                width="370"
+                height="404"
+              />
+              <h3 class="products-title">Проєкт Prime</h3>
+              <p class="products-description">Маркетинг</p>
+            </li>
+            <li class="products-list">
+              <img
+                src="./Додаток2.png"
+                alt="Додаток"
+                width="370"
+                height="404"
+              />
+              <h3 class="products-title">Проєкт Boxes</h3>
+              <p class="products-description">Додаток</p>
+            </li>
+            <li class="products-list">
+              <img
+                src="./Веб-сайт2.png"
+                alt="Веб-сайт"
+                width="370"
+                height="404"
+              />
+              <h3 class="products-title">Inspiration has no Borders</h3>
+              <p class="products-description">Веб-сайт</p>
+            </li>
+            <li class="products-list">
+              <img src="./Дизайн2.png" alt="Дизайн" width="370" height="404" />
+              <h3 class="products-title">Видання Limited Edition</h3>
+              <p class="products-description">Дизайн</p>
+            </li>
+            <li class="products-list">
+              <img
+                src="./Маркетинг2.png"
+                alt="Маркетинг"
+                width="370"
+                height="404"
+              />
+              <h3 class="products-title">Проєкт LAB</h3>
+              <p class="products-description">Маркетинг</p>
+            </li>
+            <li class="products-list">
+              <img
+                src="./Додаток3.png"
+                alt="Додаток"
+                width="370"
+                height="404"
+              />
+              <h3 class="products-title">Growing Business</h3>
+              <p class="products-description">Додаток</p>
+            </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="last-logo" href="#"
-          ><font color="#2196f3">Web</font> <font color="white">Studio</font></a
-        >
+        <a class="last-logo" href="#"><span>Web</span>Studio</a>
         <address class="last-word">м. Київ, пр-т Лесі Українки, 26</address>
         <a class="last-word" href="mailto:info@devstudio.com"
           >info@devstudio.com</a

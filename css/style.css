@@ -30,11 +30,18 @@ article {
 .main-title span {
   color: #2196f3;
 }
+.header-list-a:hover {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
 
 .hero {
   background: rgba(47, 48, 58, 0.4);
   padding: 200px 0;
-  background-image: url("/img/Team.jpg");
+  background-image: url("../img/Team.jpg");
   height: 100%;
   width: 100%;
 }
@@ -140,10 +147,8 @@ a {
 
 .last-section {
   text-align: center;
-}
-
-.second-title {
-  padding-top: 94px;
+  padding: 94px 0;
+  background: #f5f4fa;
 }
 
 .comand-ul {
@@ -195,7 +200,7 @@ a {
 
 .footer {
   background: #2f303a;
-  padding: 60px 1240px 161px 215px;
+  padding: 60px 0 161px 0;
 }
 .last-logo span {
   color: #2196f3;
@@ -290,17 +295,31 @@ span {
 .header-tel {
   color: #757575;
 }
+.header-tel:hover {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
 
 .header {
-  margin: 24px 0 25px;
+  padding: 24px 0 25px;
 }
 
 .header-email {
-  color: #2196f3;
+  color: #757575;
   gap: 50px;
 }
+.header-email:hover {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
 
-.header-list-item {
+.header-list-item a {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
@@ -325,6 +344,9 @@ span {
   justify-content: space-around;
   gap: 30px;
   align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .products-title {
@@ -353,9 +375,6 @@ span {
 
 .last-section .container {
   padding: 0;
-  width: 1600px;
-  height: 648px;
-  background: #f5f4fa;
 }
 
 /*fgdfgdfgfgf*/
@@ -394,4 +413,20 @@ span {
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
+}
+
+.products-button:hover {
+  border-radius: 4px;
+  width: 73px;
+  height: 38px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  background: #2196f3;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
 }

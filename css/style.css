@@ -124,6 +124,7 @@ h2 {
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 h4 {
@@ -248,7 +249,6 @@ a {
   height: 120px;
   background: #f5f4fa;
   gap: 30px;
-  margin: 94px 0 30px;
   padding: 25px 102.34px;
 }
 .image-work {
@@ -296,10 +296,6 @@ span {
   color: #757575;
 }
 .header-tel:hover {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -312,10 +308,6 @@ span {
   gap: 50px;
 }
 .header-email:hover {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
   color: #2196f3;
 }
 
@@ -413,20 +405,11 @@ span {
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
+  border: none;
 }
 
 .products-button:hover {
-  border-radius: 4px;
-  width: 73px;
-  height: 38px;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
-    0 3px 1px 0 rgba(0, 0, 0, 0.1);
   background: #2196f3;
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 162%;
-  letter-spacing: 0.03em;
-  text-align: center;
   color: #fff;
+  border: none;
 }

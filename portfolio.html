@@ -7,6 +7,13 @@
   </head>
   <body>
     <link rel="stylesheet" href="./css/style.css" />
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+            <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <header class="header">
       <div class="container">
         <div class="header-content">
@@ -28,13 +35,34 @@
           </nav>
         </div>
         <address class="header-address">
-          <a href="mailto:info@devstudio.com" class="header-email"
-            >info@devstudio.com</a
-          >>
-          <a href="tel:+380961111111" class="header-tel">+38 096 111 11 11</a>
+          <a href="mailto:info@devstudio.com" class="header-email">
+            <svg
+              width="16"
+              height="12"
+              viewBox="0 0 16 12"
+              are-lable="envelope"
+              class="svg-envelope"
+            >
+              <use href="./sprite.svg#envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+          <a href="tel:+380961111111" class="header-tel">
+            <svg
+              width="10"
+              height="16"
+              viewBox="0 0 10 16"
+              are-lable="vector"
+              class="svg-vector"
+            >
+              <use href="./sprite.svg#vector"></use>
+            </svg>
+            +38 096 111 11 11
+          </a>
         </address>
       </div>
     </header>
+  </hr>
     <main>
       <section class="button-section">
         <div class="container">
@@ -46,78 +74,186 @@
             <button type="button" class="products-button">Маркетинг</button>
           </div>
           <ul class="products">
-            <li class="products-list">
-              <img
-                src="./Веб-сайт1.png"
-                alt="Веб-сайт"
-                width="370"
-                height="294"
-              />
+            <li class="products-list" data-aos="flip-left">
+              <div class="card-box">
+                <div class="overlay-card">
+                  <p class="p-card">
+                    Ресурс пропонує комплексні<br>
+                    пропозиції з різним рівнем<br>
+                    функціоналу та сервісів. Все це<br>
+                    дозволить відвідувачу отримати <br>
+                    вичерпні відомості про компанію<br>
+                    чи приватну особу.
+                  </p>
+                </div>
+                <img
+                  src="./Веб-сайт1.png"
+                  alt="Веб-сайт"
+                  width="370"
+                  height="294"
+                />
+              </div>
               <h3 class="products-title">Технокряк</h3>
               <p class="products-description">Веб-сайт</p>
             </li>
-            <li class="products-list">
+            <li class="products-list"  data-aos="flip-down">
+                            <div class="card-box">
+                <div class="overlay-card">
+                  <p class="p-card">
+                    Ресурс пропонує комплексні<br>
+                    пропозиції з різним рівнем<br>
+                    функціоналу та сервісів. Все це<br>
+                    дозволить відвідувачу отримати <br>
+                    вичерпні відомості про компанію<br>
+                    чи приватну особу.
+                  </p>
+                </div>
               <img src="./Дизайн.png" alt="Дизайн" width="370" height="294" />
+              </div>
               <h3 class="products-title">Постер New Orlean vs Golden Star</h3>
               <p class="products-description">Дизйн</p>
             </li>
-            <li class="products-list">
+            <li class="products-list" data-aos="flip-right">
+                            <div class="card-box">
+                <div class="overlay-card">
+                  <p class="p-card">
+                    Ресурс пропонує комплексні<br>
+                    пропозиції з різним рівнем<br>
+                    функціоналу та сервісів. Все це<br>
+                    дозволить відвідувачу отримати <br>
+                    вичерпні відомості про компанію<br>
+                    чи приватну особу.
+                  </p>
+                </div>
               <img src="./Додаток.png" alt="Додаток" width="370" height="294" />
+              </div>
               <h3 class="products-title">Ресторан Seafood</h3>
               <p class="products-description">Додаток</p>
             </li>
-            <li class="products-list">
+            <li class="products-list" data-aos="flip-left">
+                            <div class="card-box">
+                <div class="overlay-card">
+                  <p class="p-card">
+                    Ресурс пропонує комплексні<br>
+                    пропозиції з різним рівнем<br>
+                    функціоналу та сервісів. Все це<br>
+                    дозволить відвідувачу отримати <br>
+                    вичерпні відомості про компанію<br>
+                    чи приватну особу.
+                  </p>
+                </div>
               <img
                 src="./Маркетинг.png"
                 alt="Маркетинг"
                 width="370"
                 height="294"
               />
+              </div>
               <h3 class="products-title">Проєкт Prime</h3>
               <p class="products-description">Маркетинг</p>
             </li>
-            <li class="products-list">
+            <li class="products-list"  data-aos="flip-down">
+                            <div class="card-box">
+                <div class="overlay-card">
+                  <p class="p-card">
+                    Ресурс пропонує комплексні<br>
+                    пропозиції з різним рівнем<br>
+                    функціоналу та сервісів. Все це<br>
+                    дозволить відвідувачу отримати <br>
+                    вичерпні відомості про компанію<br>
+                    чи приватну особу.
+                  </p>
+                </div>
               <img
                 src="./Додаток2.png"
                 alt="Додаток"
                 width="370"
                 height="294"
               />
+              </div>
               <h3 class="products-title">Проєкт Boxes</h3>
               <p class="products-description">Додаток</p>
             </li>
-            <li class="products-list">
+            <li class="products-list" data-aos="flip-right">
+                            <div class="card-box">
+                <div class="overlay-card">
+                  <p class="p-card">
+                    Ресурс пропонує комплексні<br>
+                    пропозиції з різним рівнем<br>
+                    функціоналу та сервісів. Все це<br>
+                    дозволить відвідувачу отримати <br>
+                    вичерпні відомості про компанію<br>
+                    чи приватну особу.
+                  </p>
+                </div>
               <img
                 src="./Веб-сайт2.png"
                 alt="Веб-сайт"
                 width="370"
                 height="294"
               />
+              </div>
               <h3 class="products-title">Inspiration has no Borders</h3>
               <p class="products-description">Веб-сайт</p>
             </li>
-            <li class="products-list">
+            <li class="products-list" data-aos="flip-left">
+                            <div class="card-box">
+                <div class="overlay-card">
+                  <p class="p-card">
+                    Ресурс пропонує комплексні<br>
+                    пропозиції з різним рівнем<br>
+                    функціоналу та сервісів. Все це<br>
+                    дозволить відвідувачу отримати <br>
+                    вичерпні відомості про компанію<br>
+                    чи приватну особу.
+                  </p>
+                </div>
               <img src="./Дизайн2.png" alt="Дизайн" width="370" height="294" />
+              </div>
               <h3 class="products-title">Видання Limited Edition</h3>
               <p class="products-description">Дизайн</p>
             </li>
-            <li class="products-list">
+            <li class="products-list"  data-aos="flip-down">
+                            <div class="card-box">
+                <div class="overlay-card">
+                  <p class="p-card">
+                    Ресурс пропонує комплексні<br>
+                    пропозиції з різним рівнем<br>
+                    функціоналу та сервісів. Все це<br>
+                    дозволить відвідувачу отримати <br>
+                    вичерпні відомості про компанію<br>
+                    чи приватну особу.
+                  </p>
+                </div>
               <img
                 src="./Маркетинг2.png"
                 alt="Маркетинг"
                 width="370"
                 height="294"
               />
+              </div>
               <h3 class="products-title">Проєкт LAB</h3>
               <p class="products-description">Маркетинг</p>
             </li>
-            <li class="products-list">
+            <li class="products-list" data-aos="flip-right">
+                            <div class="card-box">
+                <div class="overlay-card">
+                  <p class="p-card">
+                    Ресурс пропонує комплексні<br>
+                    пропозиції з різним рівнем<br>
+                    функціоналу та сервісів. Все це<br>
+                    дозволить відвідувачу отримати <br>
+                    вичерпні відомості про компанію<br>
+                    чи приватну особу.
+                  </p>
+                </div>
               <img
                 src="./Додаток3.png"
                 alt="Додаток"
                 width="370"
                 height="294"
               />
+              </div>
               <h3 class="products-title">Growing Business</h3>
               <p class="products-description">Додаток</p>
             </li>
@@ -140,7 +276,7 @@
           </div>
           <div class="footer-message">
             <h3 class="footer-h3">ПРИЄДНУЙТЕСЬ</h3>
-             <ul class="footer-mesages-ul">
+            <ul class="footer-mesages-ul">
               <li class="footer-mesages-li">
                 <svg
                   width="20"
@@ -177,10 +313,30 @@
                 </svg>
               </li>
             </ul>
-            </svg>
+          </div>
+          <div>
+            <h3 class="title-email">Підпишіться на розсилку</h3>
+            <div class="modal-input">
+              <input class="form-input" type="email" placeholder="E-mail" />
+              <button type="submit" disabled class="modal-btn">
+                Підписатися <i class="fa-brands fa-telegram"></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+
+        <script
+      src="https://kit.fontawesome.com/dfe49a1a19.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
